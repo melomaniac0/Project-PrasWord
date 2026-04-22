@@ -72,19 +72,19 @@ PrasWord/                        ← project root (cd here to run)
 │   │   │   └── distraction_free_overlay.py  Zen-mode manager (banner + badge)
 │   │   │
 │   │   ├── panels/
-│   │   │   └── sidebar_panel.py  (not yet)         Left dock: Files / TOC / References tabs
+│   │   │   └── sidebar_panel.py   (not yet)      Left dock: Files / TOC / References tabs
 │   │   │
 │   │   └── dialogs/
-│   │       ├── find_replace_dialog.py   (not yet)   Regex search, replace, replace-all
-│   │       ├── math_dialog.py           (not yet)   LaTeX input + snippet picker + preview
-│   │       ├── citation_dialog.py       (not yet)   BibTeX browser + cite-key inserter
-│   │       ├── insert_table_dialog.py   (not yet)   Blank table or CSV import
-│   │       ├── git_dialog.py            (not yet)   Git status, stage, commit
-│   │       └── preferences_dialog.py    (not yet)   Theme, font, editor, metrics settings
+│   │       ├── find_replace_dialog.py   Regex search, replace, replace-all
+│   │       ├── math_dialog.py           LaTeX input + snippet picker + preview
+│   │       ├── citation_dialog.py       BibTeX browser + cite-key inserter
+│   │       ├── insert_table_dialog.py   Blank table or CSV import
+│   │       ├── git_dialog.py            Git status, stage, commit
+│   │       └── preferences_dialog.py    Theme, font, editor, metrics settings
 │   │
 │   ├── features/                ── Feature Modules ──
 │   │   ├── formatting/
-│   │   │   └── formatting_engine.py    (not yet)    Bold/Italic/Underline/Strike/Sub/Sup,
+│   │   │   └── formatting_engine.py       Bold/Italic/Underline/Strike/Sub/Sup,
 │   │   │                                  Font, Size, Colour, Highlight,
 │   │   │                                  Alignment, Spacing, Indent, Headings H1–H6
 │   │   │
