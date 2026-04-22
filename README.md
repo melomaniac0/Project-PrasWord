@@ -89,16 +89,16 @@ PrasWord/                        ← project root (cd here to run)
 │   │   │                                  Alignment, Spacing, Indent, Headings H1–H6
 │   │   │
 │   │   ├── layout/
-│   │   │   ├── toc_generator.py      (not yet)      Auto Table of Contents (scan + insert)
-│   │   │   ├── page_layout.py        (not yet)      Page size (A4/Letter/…), margins
+│   │   │   ├── toc_generator.py           Auto Table of Contents (scan + insert)
+│   │   │   ├── page_layout.py             Page size (A4/Letter/…), margins
 │   │   │   ├── header_footer.py           Header/footer templates with placeholders
 │   │   │   └── page_numbering.py          arabic/roman/alpha, PDF painter, live overlay
 │   │   │
 │   │   ├── academic/
-│   │   │   ├── bibtex_manager.py     (not yet)     .bib import, APA/MLA/Chicago/IEEE format,
+│   │   │   ├── bibtex_manager.py          .bib import, APA/MLA/Chicago/IEEE format,
 │   │   │   │                              bibliography HTML generation, search
-│   │   │   ├── citation_engine.py    (not yet)     In-text citation insertion
-│   │   │   └── cross_reference.py    (not yet)     Label anchors + clickable xref links
+│   │   │   ├── citation_engine.py         In-text citation insertion
+│   │   │   └── cross_reference.py         Label anchors + clickable xref links
 │   │   │
 │   │   ├── datascience/
 │   │   │   ├── code_highlighter.py   (not yet)     Pygments syntax highlighting (Python/R/SQL/…)
@@ -110,7 +110,7 @@ PrasWord/                        ← project root (cd here to run)
 │   │   │   └── file_io.py                 Load/save .docx .md .txt; PDF export via QPrinter
 │   │   │
 │   │   └── metrics/
-│   │       └── metrics_engine.py    (not yet)      Words, chars, paragraphs, sentences,
+│   │       └── metrics_engine.py          Words, chars, paragraphs, sentences,
 │   │                                      unique words, avg word/sentence length,
 │   │                                      reading time — fast path + full analysis
 │   │
