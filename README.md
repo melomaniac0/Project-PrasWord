@@ -72,7 +72,7 @@ PrasWord/                        ← project root (cd here to run)
 │   │   │   └── distraction_free_overlay.py  Zen-mode manager (banner + badge)
 │   │   │
 │   │   ├── panels/
-│   │   │   └── sidebar_panel.py   (not yet)      Left dock: Files / TOC / References tabs
+│   │   │   └── sidebar_panel.py   Left dock: Files / TOC / References tabs
 │   │   │
 │   │   └── dialogs/
 │   │       ├── find_replace_dialog.py   Regex search, replace, replace-all
