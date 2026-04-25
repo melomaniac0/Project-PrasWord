@@ -101,10 +101,10 @@ PrasWord/                        ← project root (cd here to run)
 │   │   │   └── cross_reference.py         Label anchors + clickable xref links
 │   │   │
 │   │   ├── datascience/
-│   │   │   ├── code_highlighter.py   (not yet)     Pygments syntax highlighting (Python/R/SQL/…)
-│   │   │   ├── math_renderer.py      (not yet)     LaTeX → PNG via matplotlib; sympy validation
-│   │   │   ├── csv_table.py          (not yet)     CSV/TSV → styled QTextTable with zebra rows
-│   │   │   └── jupyter_cell.py       (not yet)     Executable cells (Python/R/Bash) in subprocess
+│   │   │   ├── code_highlighter.py        Pygments syntax highlighting (Python/R/SQL/…)
+│   │   │   ├── math_renderer.py           LaTeX → PNG via matplotlib; sympy validation
+│   │   │   ├── csv_table.py               CSV/TSV → styled QTextTable with zebra rows
+│   │   │   └── jupyter_cell.py            Executable cells (Python/R/Bash) in subprocess
 │   │   │
 │   │   ├── filemanagement/
 │   │   │   └── file_io.py                 Load/save .docx .md .txt; PDF export via QPrinter
@@ -126,12 +126,12 @@ PrasWord/                        ← project root (cd here to run)
 │
 ├── tests/
 │   ├── conftest.py              Shared fixtures: qapp, blank_document, editor, …
-│   ├── test_document.py    (not yet)     Document model: state, metrics, bibliography
+│   ├── test_document.py         Document model: state, metrics, bibliography
 │   ├── test_document_manager.py   (not yet)DocumentManager lifecycle
-│   ├── test_formatting.py   (not yet)    FormattingEngine: bold/italic/heading/spacing
-│   ├── test_metrics.py      (not yet)    MetricsEngine: counts, reading time, frozen dataclass
-│   ├── test_fileio.py       (not yet)    FileIO: load/save/round-trip txt/md/docx
-│   ├── test_academic.py     (not yet)    BibTeXManager: import, search, format, generate
+│   ├── test_formatting.py       FormattingEngine: bold/italic/heading/spacing
+│   ├── test_metrics.py             MetricsEngine: counts, reading time, frozen dataclass
+│   ├── test_fileio.py           FileIO: load/save/round-trip txt/md/docx
+│   ├── test_academic.py         BibTeXManager: import, search, format, generate
 │   ├── test_layout.py           PageLayout, margins, header/footer, page numbering
 │   └── test_integration.py      End-to-end: open→edit→save→reload, widgets, signals
 │
@@ -142,7 +142,7 @@ PrasWord/                        ← project root (cd here to run)
 ├── install.sh       One-shot venv + pip install setup script
 ├── Makefile         make run / test / lint / typecheck / clean
 ├── pyproject.toml   PEP 517 build spec, dependency groups
-├── setup.py    (not yet)     Legacy setuptools shim
+├── setup.py         Legacy setuptools shim
 └── README.md        This file
 ```
 
